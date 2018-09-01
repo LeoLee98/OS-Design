@@ -1,13 +1,15 @@
 #ifndef _COMMON_H_
 #define _COMMON_H_
 
-#include <iostream>
+
+//#include <iostream>
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
 #include <conio.h>
 #include <windows.h>
-#include<unistd.h> 
+#include "struct.h"
+#include "operation.h"
 
 
 #define BLOCK_SIZE	512						//块号大小为512B

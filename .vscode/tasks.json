@@ -1,7 +1,7 @@
 {
     "version": "0.1.0",
     "command": "g++",
-    "args": ["-g","${file}","-o","${file}.exe"],    // gcc编译命令参数
+    "args": ["-fexec-charset=GBK","-g","${file}","-o","${file}.exe"],    // gcc编译命令参数
     "problemMatcher": {
         "owner": "cpp",
         "fileLocation": ["relative", "${workspaceRoot}"],
